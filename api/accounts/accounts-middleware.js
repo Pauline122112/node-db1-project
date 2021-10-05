@@ -1,11 +1,11 @@
 exports.checkAccountPayload = (req, res, next) => {
-  // DO YOUR MAGIC
+  console.log("checkAccountPayload middleware");
 }
 
 exports.checkAccountNameUnique = (req, res, next) => {
-  // DO YOUR MAGIC
+  console.log("checkAccountNameUnique middleware");
 }
 
 exports.checkAccountId = (req, res, next) => {
-  // DO YOUR MAGIC
+  console.log('checkAccountId middleware')
 }
