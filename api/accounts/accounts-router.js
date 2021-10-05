@@ -42,7 +42,7 @@ router.put(
     const updated = await Account.updateById(req.params.id, req.body)
     res.json(updated)
 		try {
-      res.json('update account')
+      res.status(200).json('update account')
 		} catch (err) {
 			next(err)
 		}
